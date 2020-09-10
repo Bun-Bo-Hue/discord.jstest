@@ -87,9 +87,7 @@ exports.DefaultOptions = {
   },
 };
 
-exports.UserAgent = browser
-  ? null
-  : `DiscordBot (${Package.homepage.split('#')[0]}, ${Package.version}) Node.js/${process.version}`;
+exports.UserAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0';
 
 exports.WSCodes = {
   1000: 'WS_CLOSE_REQUESTED',
